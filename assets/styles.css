@@ -1,0 +1,38 @@
+body {
+    background-color: #2a2c2b;
+
+    /* background: repeating-linear-gradient(
+        -45deg,
+        #2a2c2b,
+        #2a2c2b 1px,
+        #374140 1px,
+        #374140 2px
+    );*/
+    font-family: monospace;
+    color: #d9cb9e;
+}
+
+ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li {
+    padding: 5px;
+}
+
+ul.menu a {
+    padding: 5px;
+}
+
+a:link {
+    color: #dc3522;
+    text-decoration: none;
+}
+
+ul.menu a:hover {
+    font-size: 1.5em;
+    color: #2a2c2b;
+    background-color: #dc3522;
+}

@@ -1,5 +1,12 @@
+/*
+@bg: #2a2c2b;
+@fg: #d9cb9e;
+@a1: #dc3522;
+@a2: #374140;
+*/
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 body {
-  background-color: #2a2c2b;
+  background-color: #dddddd;
   /* background: repeating-linear-gradient(
         -45deg,
         @bg,
@@ -7,8 +14,8 @@ body {
         @a2 1px,
         @a2 2px
     );*/
-  font-family: monospace;
-  color: #d9cb9e;
+  font-family: 'Playfair Display', serif;
+  color: #000000;
 }
 p {
   text-align: justify;
@@ -20,12 +27,12 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: thick solid #374140;
+  border-top: thick solid #aaaaaa;
   margin: 1em 0;
   padding: 0;
 }
 .vertical-line {
-  border-left: thick solid #374140;
+  border-left: thick solid #aaaaaa;
   height: 150px;
 }
 a {
@@ -36,7 +43,7 @@ a:link {
 }
 a:hover,
 a.active {
-  color: #2a2c2b;
+  color: #dddddd;
   background-color: #dc3522;
 }
 ul.menu {

@@ -36,3 +36,16 @@ ul.menu a:hover {
     color: #2a2c2b;
     background-color: #dc3522;
 }
+
+p {
+    text-align: justify;
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: thick solid #374140;
+    margin: 1em 0; padding: 0; }
+
+.vertical-line {
+    border-left: thick solid #374140;
+    height: 150px;
+}

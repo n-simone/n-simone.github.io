@@ -64,5 +64,6 @@ ul.menu a {
   pointer-events: auto;
 }
 ul.menu a:hover {
+  margin: 5px;
   font-size: 1.5em;
 }

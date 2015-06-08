@@ -1,9 +1,10 @@
-/*
+/* DARK THEME
 @bg: #2a2c2b;
 @fg: #d9cb9e;
 @a1: #dc3522;
 @a2: #374140;
 */
+/* LIGHT THEME */
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 body {
   background-color: #dddddd;
@@ -52,10 +53,15 @@ ul.menu {
   margin: 0;
 }
 ul.menu li {
+  padding: 10px;
+  pointer-events: none;
+}
+ul.menu li:hover {
   padding: 5px;
 }
 ul.menu a {
   padding: 5px;
+  pointer-events: auto;
 }
 ul.menu a:hover {
   font-size: 1.5em;

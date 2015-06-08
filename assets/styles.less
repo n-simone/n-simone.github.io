@@ -1,10 +1,11 @@
-/*
+/* DARK THEME
 @bg: #2a2c2b;
 @fg: #d9cb9e;
 @a1: #dc3522;
 @a2: #374140;
 */
 
+/* LIGHT THEME */
 @bg: #dddddd;
 @fg: #000000;
 @a1: #dc3522;
@@ -63,11 +64,17 @@ ul.menu {
     margin: 0;
 
     & li {
-        padding: 5px;
+        padding: 10px;
+        pointer-events: none;
+
+        &:hover {
+            padding: 5px;
+        }
     }
 
     & a {
         padding: 5px;
+        pointer-events: auto;
         
         &:hover {
             font-size: 1.5em;

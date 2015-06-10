@@ -32,16 +32,18 @@ hr {
   margin: 1em 0;
   padding: 0;
   text-align: center;
-}
-hr:after {
-  content: "§";
-  color: #aaaaaa;
-  display: inline-block;
-  position: relative;
-  top: -0.9em;
-  font-size: 1.5em;
-  padding: 0 0.25em;
-  background: #dddddd;
+  /*
+    &:after {
+        content: "§";
+        color: @a2;
+        display: inline-block;
+        position: relative;
+        top: -.9em;
+        font-size: 1.5em;
+        padding: 0 0.25em;
+        background: @bg;
+    }
+    */
 }
 .vertical-line {
   border-left: thick double #aaaaaa;

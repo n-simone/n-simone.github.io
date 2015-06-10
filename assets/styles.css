@@ -6,6 +6,14 @@
 */
 /* LIGHT THEME */
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+::selection {
+  color: #dddddd;
+  background: #dc3522;
+}
+::-moz-selection {
+  color: #dddddd;
+  background: #dc3522;
+}
 body {
   background-color: #dddddd;
   /* background: repeating-linear-gradient(

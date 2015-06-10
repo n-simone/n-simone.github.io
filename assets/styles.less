@@ -35,12 +35,29 @@ h1 a {
     padding: 5px;
 }
 
-hr { display: block; height: 1px;
-    border: 0; border-top: thick solid @a2;
-    margin: 1em 0; padding: 0; }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: thick double @a2;
+    margin: 1em 0;
+    padding: 0;
+    text-align: center;
+    
+    &:after {
+        content: "§";
+        color: @a2;
+        display: inline-block;
+        position: relative;
+        top: -.9em;
+        font-size: 1.5em;
+        padding: 0 0.25em;
+        background: @bg;
+    }
+}
 
 .vertical-line {
-    border-left: thick solid @a2;
+    border-left: thick double @a2;
     height: 150px;
 }
 

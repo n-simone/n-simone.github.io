@@ -1,90 +1,59 @@
-/* DARK THEME
-@bg: #2a2c2b;
-@fg: #d9cb9e;
-@a1: #dc3522;
-@a2: #374140;
-*/
-/* LIGHT THEME */
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
-::selection {
-  color: #dddddd;
-  background: #dc3522;
-}
-::-moz-selection {
-  color: #dddddd;
-  background: #dc3522;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto+Condensed:400,400italic,700,300italic|Roboto:400,300italic,400italic,700);
+* {
+  box-sizing: border-box;
 }
 body {
-  background-color: #dddddd;
-  /* background: repeating-linear-gradient(
-        -45deg,
-        @bg,
-        @bg 1px,
-        @a2 1px,
-        @a2 2px
-    );*/
-  font-family: 'Playfair Display', serif;
-  color: #000000;
+  font-family: 'Roboto', sans-serif;
 }
-p {
-  text-align: justify;
+.wrap {
+  width: 50%;
+  margin: 3em auto;
+}
+.wrap::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col {
+  padding: 0 1em;
+}
+.left {
+  text-align: right;
+  width: 30%;
+  float: left;
+}
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000;
+  font-weight: normal;
 }
 h1 a {
-  padding: 5px;
-}
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: thick double #aaaaaa;
-  margin: 1em 0;
-  padding: 0;
-  text-align: center;
-  /*
-    &:after {
-        content: "§";
-        color: @a2;
-        display: inline-block;
-        position: relative;
-        top: -.9em;
-        font-size: 1.5em;
-        padding: 0 0.25em;
-        background: @bg;
-    }
-    */
-}
-.vertical-line {
-  border-left: thick double #aaaaaa;
-  height: 150px;
-}
-a {
-  color: #dc3522;
-}
-a:link {
+  color: inherit;
   text-decoration: none;
 }
-a:hover,
-a.active {
-  color: #dddddd;
-  background-color: #dc3522;
+h1 span:first-child {
+  font-weight: 300;
+  font-style: italic;
 }
-ul.menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+h1 span:last-child {
+  font-weight: bold;
 }
-ul.menu li {
-  padding: 10px;
-  pointer-events: none;
+.nav {
+  padding: 2em 0;
+  list-style: none;
 }
-ul.menu li:hover {
-  padding: 5px;
+.nav li {
+  padding: 1em;
 }
-ul.menu a {
-  padding: 5px;
-  pointer-events: auto;
+.nav a {
+  color: inherit;
+  text-decoration: none;
 }
-ul.menu a:hover {
-  margin: 5px;
-  font-size: 1.5em;
+.right {
+  text-align: left;
+  width: 70%;
+  float: right;
+}
+.right p {
+  font-family: 'Roboto Slab', serif;
 }
